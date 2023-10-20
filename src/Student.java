@@ -7,5 +7,4 @@ public class Student
     public int number;
     public String department;
     public int yearOfBirth;
-
 }
