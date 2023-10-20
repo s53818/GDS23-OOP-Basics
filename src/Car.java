@@ -7,15 +7,15 @@ public class Car {
 
     public int currentGear;
 
-    public void setCurrentGear(int newGear)
+    public void setCurrentGear(int currentGear)
     {
-        if(newGear > 0 && newGear < 8)
+        if(currentGear > 0 && currentGear < 8)
         {
-            currentGear = newGear;
+            this.currentGear = currentGear;
         }
         else
         {
-            System.out.println(newGear + " not allowed");
+            System.out.println(currentGear + " not allowed");
         }
     }
 
