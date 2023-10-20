@@ -16,5 +16,7 @@ public class DemoApp {
         audiA3.countDoors=3;
         audiA3.name="Audi";
         audiA3.mileage=111_120;
+
+        System.out.println(audiA3.name);
     }
 }
