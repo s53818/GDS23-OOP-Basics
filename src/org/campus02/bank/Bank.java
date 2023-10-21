@@ -17,6 +17,11 @@ public class Bank
         konto3.abbuchen(321.67);
 
         Gehaltskonto[] gehaltskontos = {konto1, konto2, konto3}; //new org.campus02.bank.Gehaltskonto[3];
+        /*
+        gehaltskontos[0]=konto1;
+        gehaltskontos[1]=konto2;
+        gehaltskontos[2]=konto3;
+         */
 
         for(int i = 0; i < gehaltskontos.length; i++)
         {
