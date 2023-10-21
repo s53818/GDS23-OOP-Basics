@@ -9,7 +9,5 @@ public class DemoApp
 
         Animal jacki = new Animal("Jacki",6500);
         jacki.print();
-
-
     }
 }
