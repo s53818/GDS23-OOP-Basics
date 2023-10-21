@@ -16,7 +16,7 @@ public class Bank
         konto2.abbuchen(124.87);
         konto3.abbuchen(321.67);
 
-        Gehaltskonto[] gehaltskontos = {konto1, konto2, konto3}; //new org.campus02.bank.Gehaltskonto[3];
+        Gehaltskonto[] gehaltskontos = {konto1, konto2, konto3}; //new Gehaltskonto[3];
         /*
         gehaltskontos[0]=konto1;
         gehaltskontos[1]=konto2;
@@ -25,7 +25,12 @@ public class Bank
 
         for(int i = 0; i < gehaltskontos.length; i++)
         {
-            System.out.println("Konto"+i + " Kontostand: "+gehaltskontos[i].getKontostand());
+            Gehaltskonto g = gehaltskontos[i];
+            //                                                                    die Id fuer ein Konto holen, macht aber ein return number
+            //                                                                    und nicht return id --> siehe Klasse Gehaltskonto
+            System.out.println("Konto"+(i+1) + " Kontostand: "+g.getKontostand()+"; "+g.getId());
         }
+        //Letzte Id ausgeben
+        System.out.println("Letzte Id: "+Gehaltskonto.id);
     }
 }
