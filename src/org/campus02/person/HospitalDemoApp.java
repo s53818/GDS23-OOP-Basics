@@ -1,3 +1,7 @@
+package org.campus02.person;
+
+import org.campus02.person.Person;
+
 public class HospitalDemoApp
 {
     public static void main(String[] args)

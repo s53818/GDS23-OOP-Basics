@@ -1,3 +1,5 @@
+package org.campus02.bank;
+
 public class Gehaltskonto
 {
     // Inhaber : String, IBAN : String, BIC : String, Kontostand : double

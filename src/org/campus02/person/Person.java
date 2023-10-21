@@ -1,3 +1,5 @@
+package org.campus02.person;
+
 public class Person
 {
     public String firstName;

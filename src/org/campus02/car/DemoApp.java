@@ -1,11 +1,13 @@
+package org.campus02.car;
+
 public class DemoApp {
     public static void main(String[] args) {
 
-        //Datentyp Car
+        //Datentyp org.campus02.car.Car
         Car vwGolf8 = new Car();
         // Variablen Werte zuweisen
         // Attribute kann man sich wie Variablen vorstellen
-        // String color = "Black"; im Hintergrund, nur dass der Datentyp Car ist
+        // String color = "Black"; im Hintergrund, nur dass der Datentyp org.campus02.car.Car ist
         vwGolf8.color = "Black";
         vwGolf8.countDoors=5;
         vwGolf8.name="Hurbey";

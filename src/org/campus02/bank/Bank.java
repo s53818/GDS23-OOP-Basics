@@ -1,3 +1,5 @@
+package org.campus02.bank;
+
 public class Bank
 {
     public static void main(String[] args)
@@ -14,7 +16,7 @@ public class Bank
         konto2.abbuchen(124.87);
         konto3.abbuchen(321.67);
 
-        Gehaltskonto[] gehaltskontos = {konto1, konto2, konto3}; //new Gehaltskonto[3];
+        Gehaltskonto[] gehaltskontos = {konto1, konto2, konto3}; //new org.campus02.bank.Gehaltskonto[3];
 
         for(int i = 0; i < gehaltskontos.length; i++)
         {

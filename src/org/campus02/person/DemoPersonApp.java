@@ -1,9 +1,12 @@
+package org.campus02.person;
+
+import org.campus02.student.Student;
+
 public class DemoPersonApp
 {
     public static void main(String[] args)
     {
         Person susi = new Person();
-
         susi.firstName="Susi";
         susi.lastName="Sorglos";
         susi.age=29;

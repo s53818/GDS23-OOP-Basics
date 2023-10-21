@@ -1,5 +1,7 @@
+package org.campus02.car;
+
 public class Car {
-    // Datentyp Car erstellt
+    // Datentyp org.campus02.car.Car erstellt
     public String color;
     public int countDoors;
     public int mileage;

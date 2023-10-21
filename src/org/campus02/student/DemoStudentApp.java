@@ -1,3 +1,5 @@
+package org.campus02.student;
+
 public class DemoStudentApp
 {
     public static void main(String[] args)

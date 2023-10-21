@@ -1,3 +1,5 @@
+package org.campus02.student;
+
 import java.util.Date;
 
 public class Student
